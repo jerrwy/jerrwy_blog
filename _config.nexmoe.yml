@@ -127,11 +127,11 @@ analytics:
 # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot,waline 使用 false 可以关闭
 comment: gitalk
 gitalk:
-  admin: nexmoe # 拥有对该repo进行操作的 GitHub username
-  owner: nexmoe # 持有该 repo 的 GitHub username
-  repo: nexmoe.github.io # 存放评论的 issue 所在的 repo
-  clientID: 80b2453b6d5f37ad6225 # GitHub Client ID
-  clientSecret: 43e99fa852795c9a7b3eb924b2558c64b84bbdeb # GitHub Client Secret
+  admin: jerrwy # 拥有对该repo进行操作的 GitHub username
+  owner: jerrwy # 持有该 repo 的 GitHub username
+  repo: https://github.com/jerrwy/jerrwy_blog # 存放评论的 issue 所在的 repo
+  clientID: baef52578a4dfa4e212e # GitHub Client ID
+  clientSecret: 26bef8ad4b52820b6b94f5af6f95caf2241b5eb7 # GitHub Client Secret
 gitment:
   owner: nexmoe # 持有该 repo 的 GitHub username
   repo: nexmoe.github.io # 存放评论的 issue 所在的 repo
