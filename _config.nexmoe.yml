@@ -21,7 +21,7 @@ iconlib: # //at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css
 
 search: 
   type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
-  url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+  url: https://cn.bing.com/search?q=site:wangxiang.net.cn # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
   id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
 
 cdn: # 这里可以修改站点使用的库的CDN
@@ -129,14 +129,14 @@ comment: gitalk
 gitalk:
   admin: jerrwy # 拥有对该repo进行操作的 GitHub username
   owner: jerrwy # 持有该 repo 的 GitHub username
-  repo: https://github.com/jerrwy/jerrwy_blog # 存放评论的 issue 所在的 repo
+  repo: jerrwy_blog # 存放评论的 issue 所在的 repo
   clientID: baef52578a4dfa4e212e # GitHub Client ID
   clientSecret: 26bef8ad4b52820b6b94f5af6f95caf2241b5eb7 # GitHub Client Secret
 gitment:
-  owner: nexmoe # 持有该 repo 的 GitHub username
-  repo: nexmoe.github.io # 存放评论的 issue 所在的 repo
-  clientID: 80b2453b6d5f37ad6225 # GitHub Client ID
-  clientSecret: 43e99fa852795c9a7b3eb924b2558c64b84bbdeb # GitHub Client Secret
+  owner: jerrwy # 持有该 repo 的 GitHub username
+  repo: jerrwy_blog # 存放评论的 issue 所在的 repo
+  clientID: baef52578a4dfa4e212e # GitHub Client ID
+  clientSecret: 26bef8ad4b52820b6b94f5af6f95caf2241b5eb7 # GitHub Client Secret
 valine: 
   appId: <API_ID> # leancloud application app id
   appKey: <API_Key> # leancloud application app key
